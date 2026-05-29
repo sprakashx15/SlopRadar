@@ -44,10 +44,10 @@ Then navigate to `http://localhost:8000`.
 We test our model on the RAID benchmark training set to get a sense of the model's limitations.
 
 ### RAID Benchmark Performance
-On general text (News, Wikipedia, Blogs, Reddit): It will be highly accurate (~90%+ accuracy).
-On complex niche text (Academic Science, Medical Journals): It will be fairly accurate, but will drop slightly because it doesn't know the vocabulary well (~75-85% accuracy).
-On Chatbot Text: It is extremely accurate at catching AI that sounds like ChatGPT/Mistral.
-On Base-Model Text: It struggles to catch AI that just predicts raw words without conversational tuning
+-On general text (News, Wikipedia, Blogs, Reddit): It will be highly accurate (~90%+ accuracy).
+-On complex niche text (Academic Science, Medical Journals): It will be fairly accurate, but will drop slightly because it doesn't know the vocabulary well (~75-85% accuracy).
+-On Chatbot Text: It is extremely accurate at catching AI that sounds like ChatGPT/Mistral.
+-On Base-Model Text: It struggles to catch AI that just predicts raw words without conversational tuning.
 
 The code and results for this analysis is contained in `/raid` and `/training/src/eval_raid.py`.
 
