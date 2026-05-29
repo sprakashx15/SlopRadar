@@ -27,6 +27,7 @@ It can also be found at `/data/dataset.jsonl` in this repository.
 ## Model
 Our model is a LoRA adapter of `bert-base-cased`, with a classification head.
 By using the dataset we just hypertune the model with our dataset.
+- Train over 109 Millions Parameters.
 - Validation accuracy: 91.45%
 - The code for training is contained in `/training`
 
