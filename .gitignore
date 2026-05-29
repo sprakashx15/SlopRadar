@@ -1,0 +1,24 @@
+# Environment Variables (Keep API keys secure!)
+.env
+
+# Python compilation files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Large Model weights (Hosted on Hugging Face instead)
+models/
+runs/
+checkpoint-*/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+.idea/
+
+# Ignore agent artifacts
+.gemini/
